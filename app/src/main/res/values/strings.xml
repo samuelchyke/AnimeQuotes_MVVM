@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Anime Quotes</string>
+    <string name="random_quotes">Random Quotes</string>
+    <string name="anime_quotes">Anime Quotes</string>
+    <string name="character_quotes">Character Quotes</string>
+    <string name="character">Character :</string>
+    <string name="anime">Anime :</string>
+    <string name="quotes">Quote :</string>
+    <string name="search_anime_quotes">Search Anime Quotes</string>
+</resources>

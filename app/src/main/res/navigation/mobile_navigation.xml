@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home_random">
+
+    <fragment
+        android:id="@+id/navigation_home_random"
+        android:name="com.itc.anime_quotes.ui.home.HomeFragment"
+        android:label="@string/random_quotes"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_anime"
+        android:name="com.itc.anime_quotes.ui.dashboard.AnimeFragment"
+        android:label="@string/anime_quotes"
+        tools:layout="@layout/fragment_anime" />
+
+    <fragment
+        android:id="@+id/navigation_character"
+        android:name="com.itc.anime_quotes.ui.notifications.CharacterFragment"
+        android:label="@string/character_quotes"
+        tools:layout="@layout/fragment_characters" />
+</navigation>
